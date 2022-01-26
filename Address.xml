@@ -1,0 +1,17 @@
+<Address>
+<customer id="1">
+<Name>John Doe</Name
+<Address>H# 38, R#3, Banani, Dhaka</Address
+<Department>Sales</Department
+</customer>
+<customer id="2">
+<Name>Mark Zuckerberg</Name
+<Address>Flat# A/1, H# 20, R#18, Mirpur, Dhaka </Address
+<Department>Accounts</Department
+</customer>
+<customer id="3">
+<Name>Ala Voski</Name
+<Address>H# 38, R#3, Motijheel</Address
+<Department>Human Resource</Department
+</customer>
+</Address>
