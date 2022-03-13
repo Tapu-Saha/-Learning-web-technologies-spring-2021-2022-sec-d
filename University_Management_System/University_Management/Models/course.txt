@@ -1,1 +1,0 @@
-001|Computer Science|Mr X|002|Programming Language|Mr Y|003|Web Technology|Mr Z|004|Ethics|Md Nazim Hasan
