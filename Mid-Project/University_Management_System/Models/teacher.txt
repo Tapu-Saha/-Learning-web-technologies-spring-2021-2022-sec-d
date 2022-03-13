@@ -1,0 +1,1 @@
+001 | Al Amin | Male | alamin123@gmail.com| 014354647 | 60,000tk | 002| Khadiza Alam | Female | Khadiza123@gmail.com | 0143234647 | 50,000tk | 003 | Farzana Khalil | Female | Khalil555@gmail.com | 0167834647 | 40,000tk|004|Nazim Hasan|Male|nazim@123gmail.com|01262678|60000|005|Jahanara Begum|Female|jahanara@email.com|45464484|70.000tk
