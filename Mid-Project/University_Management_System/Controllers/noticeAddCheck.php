@@ -10,10 +10,25 @@
 		$image = $_POST['image'];
 
 		if( $noticeTitle != null &&  $noticeDescription != null  &&  $time != null && $date!=null){
+			//File Upload
+			$src = $_FILES['myfile']['tmp_name'];
+			$des = '../Assests/upload/'.$_FILES['myfile']['name'];
+			// $movedLocation = move_uploaded_file($src, $des);
+			if(move_uploaded_file($src, $des)){
+				$filename=$_FILES['myfile']['name'];
+				
+			}else{
+				echo "Error";
+			}
 			
-			// $notice = ['noticeTitle'=> $noticeTitle, 'noticeDescription'=>$noticeDescription ,'time'=>$time ,'date'=>$date, 'image'=>$image ];
+			$notice= "|" . $noticeTitle . "|" . $noticeDescription. "|" . $time . "|" . $date ."|" .$filename;
+
 			
-			$notice= "|" . $noticeTitle . "|" . $noticeDescription. "|" . $time . "|" . $date;
+
+			
+
+
+
 
 			$file = fopen('../models/notice.txt', 'a+');
 			fwrite($file, "$notice");

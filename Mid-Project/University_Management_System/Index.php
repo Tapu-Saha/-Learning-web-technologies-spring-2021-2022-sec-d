@@ -4,6 +4,7 @@
 </head>
 <body>
 	<form method="POST" action="controllers/loginCheck.php" >
+		<h1>University Management System</h1>
 	<fieldset><legend><h3>Please Login</h3></legend>
 			
 		<table>

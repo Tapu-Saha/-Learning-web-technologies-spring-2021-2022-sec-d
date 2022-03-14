@@ -2,7 +2,7 @@
     include './navbar.php';
 ?>
     <!-- Notice Form Stated  -->
-    <form method="POST" action="../controllers/noticeAddCheck.php" >
+    <form method="POST" action="../controllers/noticeAddCheck.php" enctype="multipart/form-data">
         <table>
             
             <tr>
@@ -22,7 +22,7 @@
             </tr>
             <tr>
                 <td>Image</td>
-                <td><input type="file" name="image"></td>
+                <td><input type="file" name="myfile"></td>
             </tr>
             <tr>
 				<td></td>

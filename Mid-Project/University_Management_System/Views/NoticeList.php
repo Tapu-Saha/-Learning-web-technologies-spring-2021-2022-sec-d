@@ -36,6 +36,9 @@
                         <th >Notice Description</th>
                         <th >Time</th>
                         <th >Date</th>
+                        <th >File Name</th>
+                        <th >Photo</th>
+                        
                     
                     </tr>   
                     
@@ -47,9 +50,10 @@
                             
                             echo "<td>$notice</td>";
                             $i++;
-                            if($i>3){
+                            if($i>4){   
+                                echo '<td><img src="../Assests/upload/'.$notice.'" width="110px"></td>';
                                 $i=0;
-                                // echo '<td><a href="../controllers/edit.php"></a></td>';
+                               
                                 echo "</tr>";
                                 echo "<tr align='center'>";
                             }

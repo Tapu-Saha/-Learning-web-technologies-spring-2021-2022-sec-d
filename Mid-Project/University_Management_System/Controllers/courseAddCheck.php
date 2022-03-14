@@ -5,12 +5,12 @@
 		
 		$courseId = $_POST['courseId'];
 		$courseName = $_POST['courseName'];
-		$teacher = $_POST['teacher'];
+		
 
-		if( $courseId != null &&  $courseName != null  &&  $teacher != null){
+		if( $courseId != null &&  $courseName != null){
 			
 			
-			$course= "|" . $courseId . "|" . $courseName. "|" . $teacher;
+			$course= "|" . $courseId . "|" . $courseName ;
 
 			$file = fopen('../models/course.txt', 'a+');
 			fwrite($file, "$course");
